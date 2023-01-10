@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Secularone">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header class="title"><h1>Weather Dashboard</h1></header>
+    <main>
+        <aside>
+            <h2 class="search-title">Search for a City:</h2>
+            <div class="search-content">
+                <input class="search" id="city" type="text" placeholder ="Search city here" >
+                <button class= "search-btn" type="button" onclick="getWeather()">Search</button>
+            </div>
+            <div id="city-list"></div>
+        </aside>
+       <div id="right-container">
+            <div id="currentCity">
+            <!--selected city date and conditions will display here-->
+            </div>
+
+            <div id="forecast">
+            <!-- 5 day weather outlook-->
+            </div>
+        </div> 
+
+        
+
+
+
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

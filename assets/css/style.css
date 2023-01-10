@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 2px;
+}
+
+
+.title{
+background-image: linear-gradient(to right,rgb(105, 130, 214),rgb(51, 81, 179),rgb(26, 43, 139));
+font-family: "Secularone", sans-serif;
+text-align: right;
+color: white;
+}
+
+.title h1{
+    padding-right: 20%;
+    font-size: 20px;
+}
+
+main{
+    display:flex;
+}
+
+.search-title{
+
+}
+
+.search-btn{
+    
+}
+
+#currentCity{
+    border: 1px solid black;
+    width: 50%;
+}
+
+#forecast{
+    display:flex;
+}
