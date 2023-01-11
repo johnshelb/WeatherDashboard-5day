@@ -28,9 +28,9 @@ main{
     
 }
 
-#currentCity{
+#border{
     border: 1px solid black;
-    width: 50%;
+    
 }
 
 #forecast{
