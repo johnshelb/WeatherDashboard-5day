@@ -1,6 +1,6 @@
 var weatherAPIKey = "6d20c8172b510de935853d004138473d";
 var city;
-
+var message = "Hi Nicole, I got a message from Wyzant that your account is locked"
 
 if(!localStorage.getItem("cities")){
     localStorage.setItem("cities",JSON.stringify([]))
